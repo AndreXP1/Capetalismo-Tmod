@@ -41,3 +41,41 @@ Buffs: {
 		Description: Mods.Capetalismo.Buffs.ExampleSimpleMinionBuff.Description
 	}
 }
+
+mod: {
+	Buffs: {
+		RoncaTussaBuff: {
+			DisplayName: Ronca Tussa Buff
+			Description: Mods.CapetalismoTmod.Buffs.RoncaTussaBuff.Description
+		}
+	}
+
+	Items: {
+		Ronca: {
+			DisplayName: Ronca
+			Tooltip: ""
+		}
+
+		RoncaFragment: {
+			DisplayName: Ronca Fragment
+			Tooltip: ""
+		}
+
+		Tussa: {
+			DisplayName: Tussa
+			Tooltip: ""
+		}
+
+		TussaFragment: {
+			DisplayName: Tussa Fragment
+			Tooltip: ""
+		}
+
+		RoncaTussaItem: {
+			DisplayName: Ronca Tussa Item
+			Tooltip: ""
+		}
+	}
+
+	Projectiles.RoncaTussaProjectile.DisplayName: Ronca Tussa Projectile
+}

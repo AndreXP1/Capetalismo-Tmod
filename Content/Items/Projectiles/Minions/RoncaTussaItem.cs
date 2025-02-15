@@ -1,5 +1,5 @@
 using CapetalismoTmod.Content.Items.Accessories;
-using CapetalismoTmod.Content.Items.Projetiles.Minions;
+using CapetalismoTmod.Content.Items.Projectiles.Minions;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;

@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 
-namespace Capetalismo.Content.Items.Accessories{
+namespace CapetalismoTmod.Content.Items.Accessories{
 
     public class RoncaFragment : ModItem{
             public override void SetStaticDefaults()

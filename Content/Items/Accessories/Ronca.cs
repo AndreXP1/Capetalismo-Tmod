@@ -4,7 +4,6 @@ using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 using CapetalismoTmod.Content.Items.Accessories;
-using Capetalismo.Content.Items.Accessories;
 
 namespace CapetalismoTmod.Content.Items.Accessories{
 
