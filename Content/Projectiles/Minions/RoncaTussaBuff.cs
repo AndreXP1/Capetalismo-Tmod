@@ -1,13 +1,13 @@
 using System;
-using Capetalismo.Content.Items.Accessories;
-using Capetalismo.Content.Items.Projectiles;
+using CapetalismoTmod.Content.Items.Accessories;
+using CapetalismoTmod.Content.Items.Projectiles;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Capetalismo.Content.Items.Projetiles.Minions{
+namespace CapetalismoTmod.Content.Items.Projetiles.Minions{
     public class RoncaTussaBuff : ModBuff{
 
         public override void SetStaticDefaults()

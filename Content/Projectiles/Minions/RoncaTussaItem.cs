@@ -1,12 +1,12 @@
-using Capetalismo.Content.Items.Accessories;
-using Capetalismo.Content.Items.Projetiles.Minions;
+using CapetalismoTmod.Content.Items.Accessories;
+using CapetalismoTmod.Content.Items.Projetiles.Minions;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Capetalismo-Tmod.Content.Items.Projectiles.Minions{
+namespace CapetalismoTmod.Content.Items.Projectiles.Minions{
 public class RoncaTussaItem : ModItem{
                 public override void SetStaticDefaults() {
                 ItemID.Sets.GamepadWholeScreenUseRange[Item.type] = true; // This lets the player target anywhere on the whole screen while using a controller

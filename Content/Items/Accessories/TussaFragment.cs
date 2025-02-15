@@ -6,7 +6,7 @@ using Microsoft.Build.Evaluation;
 using Terraria.GameContent.Creative;
 
 
-namespace Capetalismo.Content.Items.Accessories{
+namespace CapetalismoTmod.Content.Items.Accessories{
 
     public class TussaFragment: ModItem{
 

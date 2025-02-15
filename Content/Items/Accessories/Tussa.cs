@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.WorldBuilding;
 
-namespace Capetalismo.Content.Items.Accessories{
+namespace CapetalismoTmod.Content.Items.Accessories{
 
     public class Tussa : ModItem{
 

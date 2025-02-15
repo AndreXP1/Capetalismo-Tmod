@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CapetalismoTmod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2878e1f597e473f307065a22b2a15f057a5e7091")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20185963166d846640b502233ee77cd33b45ec98")]
 [assembly: System.Reflection.AssemblyProductAttribute("CapetalismoTmod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CapetalismoTmod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

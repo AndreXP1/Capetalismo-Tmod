@@ -1,4 +1,4 @@
-using Capetalismo.Content.Items.Projectiles;
+
 using System;
 using Microsoft.Xna.Framework;
 using Terraria;
@@ -6,7 +6,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Capetalismo.Content.Items.Projectiles{
+namespace CapetalismoTmod.Content.Items.Projectiles{
 public class RoncaTussaProjectile : ModProjectile
 	{
 		public override void SetStaticDefaults() {
