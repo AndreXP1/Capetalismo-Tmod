@@ -45,37 +45,73 @@ Buffs: {
 mod: {
 	Buffs: {
 		RoncaTussaBuff: {
-			DisplayName: Ronca Tussa Buff
-			Description: Mods.CapetalismoTmod.Buffs.RoncaTussaBuff.Description
+			DisplayName: {
+				$parentVal: Ronca Tussa Buff
+			}
+
+			Description: {
+				$parentVal: Mods.CapetalismoTmod.Buffs.RoncaTussaBuff.Description
+			}
 		}
 	}
 
 	Items: {
 		Ronca: {
-			DisplayName: Ronca
-			Tooltip: ""
+			DisplayName: {
+				$parentVal: Ronca
+			}
+
+			Tooltip: {
+				$parentVal: ""
+			}
 		}
 
 		RoncaFragment: {
-			DisplayName: Ronca Fragment
-			Tooltip: ""
+			DisplayName: {
+				$parentVal: Ronca Fragment
+			}
+
+			Tooltip: {
+				$parentVal: ""
+			}
 		}
 
 		Tussa: {
-			DisplayName: Tussa
-			Tooltip: ""
+			DisplayName: {
+				$parentVal: Tussa
+			}
+
+			Tooltip: {
+				$parentVal: ""
+			}
 		}
 
 		TussaFragment: {
-			DisplayName: Tussa Fragment
-			Tooltip: ""
+			DisplayName: {
+				$parentVal: Tussa Fragment
+			}
+
+			Tooltip: {
+				$parentVal: ""
+			}
 		}
 
 		RoncaTussaItem: {
-			DisplayName: Ronca Tussa Item
-			Tooltip: ""
+			DisplayName: {
+				$parentVal: Ronca Tussa Item
+			}
+
+			Tooltip: {
+				$parentVal: ""
+			}
 		}
 	}
 
-	Projectiles.RoncaTussaProjectile.DisplayName: Ronca Tussa Projectile
+	Projectiles: {
+		RoncaTussaProjectile: {
+			DisplayName: {
+				$parentVal: Ronca Tussa Projectile
+			}
+		}
+	}
 }
