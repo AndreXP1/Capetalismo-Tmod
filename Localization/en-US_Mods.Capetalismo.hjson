@@ -1,0 +1,43 @@
+Items: {
+	Ronca: {
+		Tooltip: ""
+		DisplayName: Ronca
+	}
+
+	RoncaFragment: {
+		DisplayName: Ronca Fragment
+		Tooltip: ""
+	}
+
+	RoncaTussaAccessorie: {
+		DisplayName: Ronca Tussa Accessorie
+		Tooltip: ""
+	}
+
+	Tussa: {
+		DisplayName: Tussa
+		Tooltip: ""
+	}
+
+	TussaFragment: {
+		DisplayName: Tussa Fragment
+		Tooltip: ""
+	}
+
+	ExampleSimpleMinionItem: {
+		DisplayName: Example Simple Minion Item
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	RoncaFragment.DisplayName: Ronca Fragment
+	ExampleSimpleMinion.DisplayName: Example Simple Minion
+}
+
+Buffs: {
+	ExampleSimpleMinionBuff: {
+		DisplayName: Example Simple Minion Buff
+		Description: Mods.Capetalismo.Buffs.ExampleSimpleMinionBuff.Description
+	}
+}

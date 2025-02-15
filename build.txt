@@ -1,0 +1,3 @@
+displayName = Capetalismo
+author = Anxp
+version = 0.1
