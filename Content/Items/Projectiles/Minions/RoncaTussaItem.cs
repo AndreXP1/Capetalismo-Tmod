@@ -16,21 +16,27 @@ public class RoncaTussaItem : ModItem{
 
         public override void SetDefaults()
         {
-            Item.CloneDefaults(ItemID.ZephyrFish);
-            Item.damage = 50;
+            Item.damage = 0;
             Item.knockBack = 10;
             Item.width = 32;
             Item.height = 32;
             Item.useTime = 10;
             Item.useAnimation = 10;
-            Item.useStyle = ItemUseStyleID.Swing;
+            Item.useStyle = ItemUseStyleID.HoldUp;
             Item.value = Item.sellPrice(gold:50);
             Item.rare = ItemRarityID.Expert;
             Item.UseSound = SoundID.Item8;
             Item.accessory = true;
             Item.noMelee = true;
+            Item.noUseGraphic = true;
             Item.buffType = ModContent.BuffType<RoncaTussaBuff>();
             Item.shoot = ModContent.ProjectileType<RoncaTussaProjectile>();
+        }
+
+        public override bool CanUseItem(Player player)
+        {
+            // Só pode usar se o jogador não estiver com o buff já ativo
+            return !player.HasBuff(ModContent.BuffType<RoncaTussaBuff>());
         }
 
         public override bool? UseItem(Player player)
