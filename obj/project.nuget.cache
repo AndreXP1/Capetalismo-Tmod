@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FBm3rc4VT24=",
+  "dgSpecHash": "bByrdmrXsxs=",
   "success": true,
-  "projectFilePath": "c:\\Users\\supor\\OneDrive\\Documentos\\My Games\\Terraria\\tModLoader\\ModSources\\Capetalismo\\Capetalismo.csproj",
+  "projectFilePath": "C:\\Users\\supor\\OneDrive\\Documentos\\My Games\\Terraria\\tModLoader\\ModSources\\CapetalismoTmod\\CapetalismoTmod.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\supor\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
   ],

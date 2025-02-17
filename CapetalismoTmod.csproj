@@ -7,10 +7,11 @@
 	<PropertyGroup>
 		
 	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="Content\Items\Weapons\ThrowingKnife.png" />
+	  <None Remove="Content\Items\Weapons\ThrowingKnifeProjectile.png" />
+	</ItemGroup>
 
 	<!-- References -->
-	<ItemGroup>
-		
-	</ItemGroup>
 
 </Project>
